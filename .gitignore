@@ -1,0 +1,19 @@
+# Intentionally excluded: local VMware/Vagrant provisioning
+Vagrantfile
+.vagrant/
+*.box
+
+# Never commit secrets, raw database contents or logs
+.pgpass
+**/.pgpass
+.env
+*.key
+*.pem
+*.p12
+*.pfx
+pg_wal/
+base/
+*.log
+*.csvlog
+*.jsonlog
+__pycache__/

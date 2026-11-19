@@ -1,0 +1,5 @@
+# On as-pg1, append AFTER reviewing earlier first-match rules.
+# The resulting primary file is copied to as-pg2 by pg_basebackup.
+# LAB host rules: use hostssl + TLS verification and strict routing in production.
+host    replication    repl_user    192.168.136.11/32    scram-sha-256
+host    replication    repl_user    192.168.136.10/32    scram-sha-256
